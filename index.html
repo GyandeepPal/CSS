@@ -8,26 +8,67 @@
 </head>
 <style>
     div {
-        color: rgb(112, 112, 121);
+        background-color: black;
+        color: aqua;
+    }
+
+    .red {
+        background-color: rgb(170, 148, 148);
+    }
+
+    #green {
+        background-color: green;
+        color: aliceblue;
+    }
+
+    div>p {
+        background-color: blue;
+    }
+
+    #ye {
+        background-color: darkgoldenrod;
+    }
+
+    * {
+        margin: 12px;
+        padding: 13px;
+    }
+
+
+    /* pseudo selector */
+
+    a:visited {
+        
+        color: darkgray;
+    }
+    a:active{
         background-color: brown;
     }
-    span{
-        background-color: rgb(21, 8, 8);
-        color: cornflowerblue;
+    a:hover{
+        background-color: darkgoldenrod;
     }
 </style>
 
 <body>
     <div>
-        <h1>We have create CSS code</h1>
+        <h1 style="color: yellow;background-color: rgb(39, 192, 192);">We have create CSS code</h1>
         <h2>i am here </h2>
     </div>
-    <span>
-        this is red
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum aut dolorem doloribus repellat laboriosam
-        consequatur debitis laborum placeat libero ratione voluptatibus similique, necessitatibus ab a! Dolores dolore
-        obcaecati ipsam. In.
-    </span>
+    <div class="red">
+        this my book
+        <p>Gyan deep pal</p>
+    </div>
+
+    <div id="green">
+        raja ji kaise ho
+    </div>
+
+    <div>
+        To kaise ho aap sab
+    </div>
+    <a href="https://www.google.com">go to google </a>
+    <a href="https://www.facebook.com">go to facebook </a>
+    
 </body>
 
 </html>
