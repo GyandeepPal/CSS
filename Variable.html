@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable</title>
+</head>
+<style>
+    :root {
+        --color: rgb(21, 181, 93);
+        --seccolor: rgb(228, 219, 224);
+        --defpad: 23px
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    ul li {
+        display: flex;
+        padding: 12px;
+        justify-content: center;
+        list-style: none;
+        border: 1.2px solid var(--seccolor);
+
+    }
+
+    .li {
+        padding: 12px;
+
+        padding: var(--defpad);
+
+    }
+
+
+
+    ul li:first-child {
+        --color: rgb(34, 120, 195);
+        background-color: var(--color);
+    }
+
+    .nav {
+        background-color: var(--color);
+
+    }
+
+    .cantainer {
+        background-color: var(--seccolor);
+    }
+</style>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="cantainer">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias libero iure exercitationem aliquam nam assumenda
+        aut ea quos accusantium voluptatibus dolor atque saepe reprehenderit quis, voluptatum facilis tempore nisi quo
+        necessitatibus sequi ad?
+    </div>
+</body>
+
+</html>
