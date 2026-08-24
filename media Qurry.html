@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS media</title>
+</head>
+<style>
+    .box {
+        height: 100px;
+        width: 70px;
+        padding: 3px;
+        margin: 3px;
+        background-color: slateblue;
+    }
+
+    body {
+        background-color: red;
+        color: rgb(202, 208, 17);
+        /* font-size: larger;
+        padding: 34px; */
+    }
+
+    @media only screen and (max-width:445px) {
+        body {
+            background-color: aqua;
+        }
+        .boxes{
+         flex-direction: column;
+        
+    }
+    }
+
+    .boxes {
+        display: flex;
+    }
+    
+</style>
+
+<body>
+
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+</body>
+
+</html>
