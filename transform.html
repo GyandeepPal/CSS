@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+</head>
+<style>
+    .cantainer{
+        height: 100vh;
+        width: 70vw;
+        border: 2px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .box{
+        height: 90px;
+        width: 9pc;
+        border: 2px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         background-color: rgb(214, 19, 136);
+         
+/*transform:rotate*/
+
+        transform: rotate(0.125turn);
+
+/*transform:rotate*/
+        /* transform:rotate(45deg) ; */
+        /* transform: rotate3d(); */
+        /* transform: rotateX(55deg); */
+        /* transform: rotateY(55deg); */
+        /* transform: rotatez(76deg); */
+
+/*transform:scale*/
+
+        /* transform: scale(2.2); */
+        /* transform: scalex(3); */
+        /* transform: scaley(2); */
+        /* transform: scalez(23332); */
+
+/*transform:skew*/
+
+        /* transform: skew(33deg); */
+        /* transform: skewx(33deg); */
+        /* transform: skewy(33deg); */
+
+/*transform:translate*/
+
+        /* transform: translate(33px); */
+        /* transform: translatex(33px); */
+        /* transform: translatey(100%); */
+        /* transform: translatez(100%); */
+       
+/* translate skew */
+
+        /* transform: translatey(33px) skewy(22deg) scalex(1.4) scaley(2); */
+
+/*transform:origen*/
+        transform-origin: 2px;
+        
+    }
+</style>
+<body>
+    <div class="cantainer">
+        <div class="box">box</div>
+    </div>
+</body>
+</html>
