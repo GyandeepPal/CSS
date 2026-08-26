@@ -10,55 +10,46 @@
     * {
         margin: 0px;
         padding: 0px;
-
-
-
+    }
+    logo img{
+        width: 123px;
     }
 
-    .nav {
-        background-color: rgb(12, 43, 244);
-        justify-content:flex-end;
-        padding: 20px;
+    nav {
         display: flex;
-        text-decoration: none;
-    }
-
-  
-
-    ul li a {
-        color: rgb(234, 237, 240);
-        margin: 9px;
-        text-decoration: none;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px;
+        background-color: rgb(183, 183, 205);
 
     }
 
-
-    ul li {
-        display: inline;
-        padding: 71px;
-        color: rgb(242, 236, 236);
-        font-size: 22px;
-
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        color:whitesmoke;
     }
-   
-
-    
-
 </style>
 
 <body>
-    <main>
-        <div class="nav">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">contact Us</a></li>
-                <li><a href="/">🐅</a></li>
-            </ul>
-        </div>  
-        
-    </main>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-logo.svg" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Pring</li>
+                    <li>About Us <HugeiconsIcon icon={ArrowDown01Icon} /></li>
+                    <li>🐶</li>
+                </ul>
+        </nav>
 
+        </div>
+    </header>
 </body>
 
 </html>
