@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+</head>
+<style>
+.cantainer{
+    background-color: aquamarine;
+    width: 70vw;
+    height: 38vh;
+}
+.box{
+     background-color: rgb(189, 193, 191);
+    width: 5vw;
+    height: 3vh;
+    transition-property: all, scale(2);
+    transition-duration:1.25s ;
+    transition-timing-function:cubic-bezier(0.81, 0.37, 0.42, 1.22) ;
+    transition-delay: 1.5s;
+}
+.translate{
+transform: translatex(30vh) translatey(30vh);
+background-color: blueviolet;
+}
+</style>
+<body>
+    <div class="cantainer">
+        <div class="box translate">
+
+        </div>
+    </div>
+</body>
+</html>
