@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head><style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .container{
+        width: 80vw;
+        height: 75vh;
+        background-color: aqua;
+    }
+    .box    {
+         width: 20vw;
+        height: 15vh;
+        /* background-color: rgb(94, 97, 97); */
+        /* animation-name:GyanKaAnimation ;
+        animation-duration: 2s;
+        animation-duration: 750ms; 
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in; 
+        animation-delay: 2s; 
+        animation-direction: alternate-reverse; */
+        animation: GyanKaAnimation 21111ms  ease-in-out  1ms infinite alternate-reverse ;
+        animation: GyanKiBaat 21111ms  ease-in-out  1ms infinite alternate-reverse ;
+    }
+    @keyframes GyanKaAnimation{
+        from{
+           background-color: rgb(167, 39, 39);
+        }to{
+            transform: translateZ(900px) translateX(1200px);
+            background-color: rgb(172, 230, 26);
+        }
+    }
+    @keyframes GyanKiBaat{
+        0%{
+            transform: rotate(100deg);
+            background-color: black;
+            border-radius: 50%;
+            margin: 43px;
+            padding: 43px;
+        }
+        10%{
+            transform: rotate(220deg);
+            margin: 43px;
+            padding: 43px;
+            background-color: black;
+            border-radius: 50%;
+
+
+        } 
+           
+        20%{
+            transform: rotate(280deg);margin: 43px;
+            padding: 43px;
+            background-color: black;
+            border-radius: 50%;
+
+        }
+        30%{
+            background-color: black;
+            border-radius: 50%;
+            transform: rotate(300deg);margin: 43px;
+            padding: 43px;
+
+        }
+        40%{
+            background-color: black;
+            transform: rotate(320deg);
+            border-radius: 50%;margin: 43px;
+            padding: 43px;
+
+        }
+        50%{
+            background-color: black;
+            border-radius: 50%;
+            transform: rotate(360deg);margin: 43px;
+            padding: 43px;
+
+        }
+        
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>box</h2>
+        </div>
+    </div>
+</body>
+</html>
