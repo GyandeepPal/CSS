@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltraEdit</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+
+    nav {
+        height: 80px;
+        width: 1450px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px;
+        border-radius: 6px;
+        border: .75px #2e2e2e solid;
+        padding: 10px;
+        margin: 12px;
+        background-color: rgba(240, 238, 238, 0.317);
+
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        color: rgb(218, 45, 45);
+    }
+
+    .download {
+        height: 233px;
+        width: 411px;
+        border-radius: 12px;
+        background-color: rgb(224, 231, 231);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        gap: 35px;
+    }
+
+    .cantainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        display: grid;
+        gap: 20px;
+    }
+
+    #downloads {
+        background-color: yellow;
+        border-radius: 10px;
+        padding: 5px 15px;
+        margin: 0px;
+        color: solid black;
+        font-size: 20px;
+
+    }
+
+    .para1 {
+        text-align: center;
+        margin: 12px;
+        padding: 22px;
+        font-size: 24px;
+    }
+
+    .para2 {
+        font-family: cursive;
+        padding: 33px;
+    }
+
+    .para3 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .btn {
+        background-color: #efe7d1;
+        border: solid gold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 12px;
+        width: 650px;
+        height: 8px;
+        padding: 100px 23px;
+        margin: auto;
+        /* font-size: 22px; */
+    }
+
+    .get {
+        background-color: rgb(158, 193, 30);
+
+
+    }
+
+    .h4 button {
+        background-color: rgb(255, 215, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        border: rgb(255, 215, 0) solid;
+        padding: 10px 20px;
+        margin: auto;
+
+    }
+
+    .box {
+        width: 100%;
+        background-color: rgb(229, 229, 221);
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .boxs {
+        height: 150px;
+        /* background-color: blue; */
+        border: 2px solid #2e2e2e;
+    }
+   
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-logo.svg" alt="Logo">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Price</li>
+                    <li>About Us
+                        <!-- <HugeiconsIcon icon={ArrowDown01Icon} /> -->
+                    </li>
+                    <li>🐶</li>
+                </ul>
+        </nav>
+        <div class="para1">
+            <div class="para2">
+                <h1>Download UltraEdit</h1>
+            </div>
+            <div class="para3">
+                <span>Choose your operating system and download the latest version of the editor.
+                </span>
+
+                <span>
+                    New users get a free 7-day trial after downloading UltraEdit.
+                </span>
+            </div>
+
+        </div>
+
+
+
+        <div class="cantainer">
+
+            <section class="download">
+                <h1>Windows</h1>
+
+                <p class="para">
+                    v2025.0 (released 2026-06-09) |
+                    <a href="#">Latest changes</a>
+                </p>
+
+                <button id="downloads">Download</button>
+            </section>
+
+            <section class="download">
+                <h1> macOS</h1>
+
+                <p class="para">
+                    v2025.0 (released 2026-06-09) |
+                    <a href="#">Latest changes</a>
+                </p>
+
+                <button id="downloads">Download</button>
+
+            </section>
+
+            <section class="download">
+                <h1> Linux</h1>
+
+                <div class="para">
+                    v2025.0 (released 2026-06-09) |
+                    <a href="#">Latest changes</a>
+                </div>
+
+                <button id="downloads">Download</button>
+            </section>
+        </div>
+        <div class="btn">
+            <h3>Keep the summer feeling going</h3>
+            <div class="h4">
+                <h4>Save 20% on any new UltraEdit license through September 13.</h4>
+                <button>Get 20% off</button>
+            </div>
+
+        </div>
+
+    </header>
+    <footer>
+        
+           
+        <div class="box">
+            <div class="boxs">Hello</div>
+            <div class="boxs">Hello</div>
+            <div class="boxs">Hello</div>
+            <div class="boxs">Hello</div>
+            <div class="boxs">Hello</div>
+            <div class="boxs">Hello</div>
+            <div class="boxs">Hello</div>
+            <div class="boxs">Hello</div>
+        </div>
+       
+    </footer>
+</body>
+
+</html>
