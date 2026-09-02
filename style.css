@@ -80,7 +80,19 @@ ul {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
 }
-
+.para{
+text-decoration:none ;
+}
+.download p a{
+    text-decoration: none;
+    text-wrap-style: pretty;
+    color: black;
+}
+.para a{
+     text-decoration: none;
+    text-wrap-style: pretty;
+    color: black;
+}
 .download {
     width: 100%;
     max-width: 411px;
@@ -103,12 +115,13 @@ ul {
     background-color: yellow;
     color: black;
 
-    border: none;
-    border-radius: 10px;
+    border: orange rebeccapurple .77px solid;
+    border-radius: 6px ;
 
-    padding: 5px 15px;
+    padding: 7px 20px;
 
     font-size: 20px;
+    cursor: pointer;
 }
 
 /* ================= OFFER BOX ================= */
@@ -137,6 +150,7 @@ ul {
 
 .h4 {
     text-align: center;
+    
 }
 
 .h4 button {
@@ -149,6 +163,7 @@ ul {
     margin: 22px auto;
 
     font-style: italic;
+    
 }
 
 /* ================= TRIAL CARDS ================= */
@@ -160,7 +175,7 @@ ul {
     margin: 20px auto;
     padding: 20px;
 
-  
+  background-color: #f4f2f2;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -181,6 +196,7 @@ ul {
     margin-bottom: 20px;
 }
 
+
 /* Individual card */
 
 .boxs {
@@ -190,6 +206,8 @@ ul {
 
     border-radius: 10px;
     background-color: white;
+
+    
 }
 
 /* Card image */
