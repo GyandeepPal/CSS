@@ -1,9 +1,13 @@
 * {
-    padding: 0px;
+    padding:0px;
     margin: 0px;
 
 }
-
+body{
+    background-color: #000;
+    opacity: 0.55;
+   
+}
 main {
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/fd8ae3c6-340b-490b-9d3c-f8a3df895c45/web/IN-en-20260907-TRIFECTA-perspective_e8f74db6-0559-495d-84fb-a75bca089b27_large.jpg");
     background-size: cover;
@@ -153,12 +157,6 @@ input::placeholder {
     border: none;
 }
 
-.seperation {
-    background-color: rgb(161, 155, 155);
-    height: 10px;
-    /* margin-top: 200px; */
-}
-
 
 
 .slider {
@@ -188,7 +186,9 @@ input::placeholder {
 
 .trending {
     background-color: black;
-    padding: 30px 40px 50px;
+    padding: 13px 10px 10px;
+    height: 100%;
+    
 }
 
 .trending h2 {
@@ -196,6 +196,8 @@ input::placeholder {
     font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 35px;
+    padding: 10px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Slider main wrapper */
@@ -519,4 +521,71 @@ input::placeholder {
     h6 {
         font-size: 13px;
     }
+}
+
+
+
+.more {
+    width: 225px;
+    height: 220px;
+
+    position: relative;
+    overflow: hidden;
+
+    border-radius: 32px;
+
+    background: linear-gradient(145deg,
+            #171b3b 0%,
+            #21182d 55%,
+            #200d16 100%);
+
+    padding: 54px 32px;
+}
+
+.more h1 {
+    color: white;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.1;
+
+    margin-bottom: 36px;
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 13px;
+}
+
+.more p {
+    color: #b9b8c4;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.27;
+
+    text-align: left;
+    margin: 0px;
+}
+
+
+
+.second {
+    background-color: #000;
+    height: 100%;
+    display: flex;
+    gap: 55px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+
+}
+
+
+#join{
+    color: white;
+    font-size: 32px;
+    
+    padding: 10px 10px 10px;
+    margin: 10px 10px 10px;
+
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+    font-weight: 700;
 }
